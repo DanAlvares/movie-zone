@@ -4,11 +4,14 @@ import './Movies.css'
 
 const Movies = (props) => {
     return ( 
-        <div className="Movies">
-            {
-                props.movies.map(movie => <Movie movie={movie} key={movie.id} />)            
-            }
-        </div> 
+        <section className="Movies">
+            <h2>Now Showing ({props.movies.length})</h2>
+            <div>
+                {
+                    props.movies.map(movie => <Movie movie={movie} key={movie.id} />)
+                }
+            </div>
+        </section> 
     );
 }
  

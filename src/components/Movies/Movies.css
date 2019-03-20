@@ -1,7 +1,11 @@
-.Movies {
+.Movies > div {
     display: flex;
     justify-content: center;
     flex-flow: wrap;
+}
+
+.Movies h2 {
+    text-align: center;
 }
 
 .Movie {
