@@ -1,0 +1,45 @@
+
+.Header {
+    left: 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+
+    background-color: #333; 
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px 25px 55px 5px/5px 55px 25px 25px;
+
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.Header h1 {
+    color: #ffffff;
+    margin: 0;
+
+    font-family: "Cabin Sketch", cursive;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.Header button {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: none;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+}
