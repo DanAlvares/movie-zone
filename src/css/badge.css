@@ -1,0 +1,20 @@
+.badge {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 0.5em 1.2em;
+    font-size: 75%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
+}
+
+.badge-info {
+    background-color: #008eff;
+    position: absolute;
+    right: 1rem;
+}
