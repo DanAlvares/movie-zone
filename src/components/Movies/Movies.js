@@ -7,8 +7,12 @@ const Movies = (props) => {
         <section className="Movies">
             <h2>Now Showing ({props.movies.length})</h2>
             <div>
-                {
-                    props.movies.map(movie => <Movie movie={movie} key={movie.id} />)
+                {   
+                    props.movies.length
+                        ? props.movies.map(movie => <Movie movie={movie} key={movie.id} />)
+                        : (<div className="alert alert-info">
+                                <strong>Heads up!</strong> There are no movies that match your search.
+                            </div>)
                 }
             </div>
         </section> 
