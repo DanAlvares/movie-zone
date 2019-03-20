@@ -31,8 +31,10 @@
     line-height: 1.2;
 }
 .Header button {
-    padding: 0.25rem 0.75rem;
+    padding: 0;
     font-size: 1.25rem;
+    color: #ffffff;
+    cursor: pointer;
     line-height: 1;
     background-color: transparent;
     border: none;
@@ -42,4 +44,7 @@
     width: 1.5em;
     height: 1.5em;
     vertical-align: middle;
+}
+.Header button.open {
+    background: none;
 }

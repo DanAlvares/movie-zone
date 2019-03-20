@@ -1,0 +1,62 @@
+
+.Filters {
+    bottom: 0;
+    box-shadow: -3px 9px 18px #ccc;
+    margin: 0;
+    max-width: 280px;
+    overflow: auto;
+    position: fixed;
+    right: -320px;
+    top: 3.5rem;
+    z-index: 999;
+
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid #333;
+    transition: right .2s linear;
+    width: 300px;
+}
+
+.Filters.open {
+    right: 0;
+}
+
+.Filters h2 {
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0,0,0,0.03);
+    border-bottom: 2px solid #333;
+    margin: 0
+}
+
+.Filters .body {
+    padding: 1rem;
+}
+
+.Filters .custom-control{
+    margin-bottom: .5vw;
+}
+
+.Filters input[type=radio] {
+    display: none;
+}
+
+.Filters input[type=radio]:checked + label {
+    background-color: #28a745;
+}
+
+.Filters input[type=radio] + label {
+    align-items: center;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1.2rem;
+    height: 2rem;
+    justify-content: center;
+    letter-spacing: 2px;
+    line-height: 3rem;
+    margin: 0.5vw;
+    padding: 0;
+    width: 2.5rem;
+}
