@@ -17,7 +17,7 @@ class App extends Component {
           genres: [],
           filteredMovies: [],
           selectedGenres: [],
-          rating: 8
+          rating: 3
         };
       }
 
