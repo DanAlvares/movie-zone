@@ -8,8 +8,6 @@
 
 Or you can just [open in Stackblitz](https://stackblitz.com/github/DanAlvares/movie-zone) to view the code.  
 
-## Running the tests
-Sorry! No tests :( I ran out of time.
 
 ## Why React?
 My strengths and experience lie with Angular. I wanted to mix it up. :) 
